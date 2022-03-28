@@ -26,10 +26,15 @@
         exemplo: 
         $nome 
         $fone1 
+
+        Constantes
+
+        define('BD_URL','endereco_bd_dev')
      -->
 
      <?php
 
+        define('BD_URL','endereco_bd_dev');
         //String
         $nome = 'Wesley Otto Garcia Utsunomiya';
      
@@ -50,6 +55,9 @@
     <p>Idade: <?= $idade ?> anos </p>
     <p>Peso: <?= $peso ?> kg </p>
     <p>Fumante: <?= $fuma ?> </p>
+    <p><?php  echo BD_URL  ?></p>
+    
+    
 </body>
 
 </html>
