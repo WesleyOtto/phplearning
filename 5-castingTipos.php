@@ -12,7 +12,12 @@
         //gettype --> retorna o tipo da variável
 
         $valor = 10;
-        
+        echo gettype($valor);
+
+        //Conversão de Int --> Float
+        $valor_tipo = (string)$valor; //float,real, double, string, bool, boolean, int, interger
+
+        echo gettype($valor_tipo);
     ?>
 
 </body>
