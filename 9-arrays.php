@@ -17,6 +17,7 @@
         $lista_frutas  = ['Banana', 'Maça', 'Morango', 'Uva', 'Abacate'];
         $lista_frutas [] = 'Abacaxi';
 
+        /*
         echo '<pre>';
             var_dump($lista_frutas);
         
@@ -26,6 +27,23 @@
         echo '<pre>';
             print_r($lista_frutas);
         echo '</pre>';
+
+        echo $lista_frutas[2];
+        */
+
+        //associativos
+        $lista_frutas2  = array( 
+            'a' => 'Banana', 
+            'b' =>'Maça',
+            'c' => 'Morango',
+            'd' => 'Uva', 
+            'e' =>'Abacate');
+        
+        echo '<pre>';
+            var_dump($lista_frutas2);
+        echo '<\pre>';
+
+        echo $lista_frutas2['d'];
     ?>
 </body>
 </html>
